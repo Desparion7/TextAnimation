@@ -27,10 +27,10 @@ const closeModal = () => {
 	if (input.value === '') {
 		errorMsg.textContent = 'Wprowadz wiadomość';
 	} else {
-		modal.classList.remove('active');
 		inputValue = input.value;
-		writingAnimation();
 		clearStuff();
+		modal.classList.remove('active');
+		writingAnimation();
 	}
 };
 
